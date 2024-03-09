@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(145deg, #012863 0%, #cdcdcd 100%);
+    background: linear-gradient(145deg, #364152 0%, #8f9091 100%);
     background-color: #000; // Color de fondo similar al de GitHub
     font-family: ui-rounded;
 }
@@ -47,9 +47,10 @@
     border: 1px solid #e1e4e8; // Bordes suaves
     font-size: 14px;
     color: #abb4bf; // Color de texto suave
+    background-color: #e4f3fd; // Color de fondo suave
 
     &:focus {
-        border-color: #0366d6; // Resalta el borde al enfocar
+        border-color: #324665; // Resalta el borde al enfocar
         outline: none;
     }
 }
@@ -59,7 +60,7 @@
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #198136; // Botón verde GitHub
+    background-color: #364152; // Botón verde GitHub
     color: white;
     font-weight: 600;
     cursor: pointer;
