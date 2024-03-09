@@ -6,15 +6,16 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(145deg, #364152 0%, #8f9091 100%);
+    background: linear-gradient(145deg, #999090 0%, #410202 100%);
     background-color: #000; // Color de fondo similar al de GitHub
-    font-family: ui-rounded;
+    font-family: monospace;
+    min-width: 25rem;
 }
 
 .loginBox {
     width: 90%;
     padding: 20px;
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
     border: 1px solid #e1e4e8; // Borde ligero para definir el contenedor
@@ -23,8 +24,8 @@
 
 .registerBox {
     width: 90%;
-    color: #333; // Color de texto oscuro para contraste
-    border-top: 1px solid #dbdbdb; // Un borde para separar el registro
+    color: #f7f7f7; // Color de texto oscuro para contraste
+    border-top: 1px solid #c1c1c1; // Un borde para separar el registro
     padding-top: 16px; // Un poco de espacio entre el borde y el texto
 }
 
@@ -46,7 +47,7 @@
     border-radius: 5px;
     border: 1px solid #e1e4e8; // Bordes suaves
     font-size: 14px;
-    color: #abb4bf; // Color de texto suave
+    color: #757c83; // Color de texto suave
     background-color: #e4f3fd; // Color de fondo suave
 
     &:focus {
@@ -60,7 +61,7 @@
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #364152; // Botón verde GitHub
+    background-color: rgb(98, 54, 54); // Botón verde GitHub
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -68,6 +69,13 @@
     text-align: center;
 
     &:hover {
-        background-color: darken(#ffffff, 100%);
+        background-color: darken(#621717, 100%);
     }
 }
+
+
+.logo {
+    width: 8rem; // O el tamaño que desees
+    height: auto; // Para mantener la proporción del logo
+    margin: 1rem auto 1rem auto; // Para centrar si es necesario
+  }
