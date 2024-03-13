@@ -1,0 +1,15 @@
+.inputField {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e1e4e8; // Bordes suaves
+    font-size: 14px;
+    color: #757c83; // Color de texto suave
+    background-color: #e4f3fd; // Color de fondo suave
+  
+    &:focus {
+      border-color: #324665; // Resalta el borde al enfocar
+      outline: none;
+    }
+  }
+  

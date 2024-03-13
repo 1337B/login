@@ -1,0 +1,68 @@
+// src/styles/pages/Login/Login.module.scss
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(145deg, #999090 0%, #410202 100%);
+    background-color: #000; // Color de fondo similar al de GitHub
+    font-family: monospace;
+    min-width: 35rem;
+    width: 100%;
+}
+
+.loginBox {
+    width: 90%;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e1e4e8; // Borde ligero para definir el contenedor
+    margin-bottom: 2rem;
+    min-width: 25rem;
+    min-height: 40rem;
+}
+
+.registerBox {
+    // quitar el decoration de la etiqueta a 
+    a {
+        text-decoration: none;
+        color: #f7f7f7;
+    }
+    width: 90%;
+    color: #f7f7f7; // Color de texto oscuro para contraste
+    border-top: 1px solid #936f6f; // Un borde para separar el registro
+    padding-top: 2rem; // Un poco de espacio entre el borde y el texto
+}
+
+.recoverBox {
+    // quitar el decoration de la etiqueta a 
+    a {
+        text-decoration: none;
+        color: rgb(98, 54, 54);
+    }
+    padding-top: 2.2rem;
+}
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;// Botón verde GitHub
+    color: white;
+    font-weight: 600;
+    background-color: rgb(98, 54, 54); 
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+
+    &:hover {
+        background-color: darken(#521b1b, 100%);
+    }
+}
+
+.authButton{
+    color: rgb(98, 54, 54); 
+}

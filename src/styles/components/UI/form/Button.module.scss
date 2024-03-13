@@ -1,5 +1,5 @@
 // src/styles/components/UI/Form/AuthButton.module.scss
-.authButton {
+.Button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,8 +10,7 @@
   font-weight: 500; // font-medium
   font-family: inherit;
   text-align: center;
-  background-color: #ffffff; // bg-white
-  color: #374151; // text-gray-700
+  background-color: #ffffff; 
   width: 100%;
 
   &:hover {
